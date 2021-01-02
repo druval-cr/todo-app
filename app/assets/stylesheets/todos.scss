@@ -1,0 +1,52 @@
+// Place all the styles related to the todos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// FORM
+.form-section{
+    display: flex;
+    padding: 10px 20px;
+}
+.form-section label{
+    padding-right: 10px;
+}
+
+// TODO
+.todo{
+    border: 1px solid blue;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.todo h3{
+    margin: 0;
+}
+
+.todo-field{
+    padding-top: 10px;
+}
+.todo-field a{
+    padding-right: 10px;
+}
+
+// INDEX
+.main-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.index__todos{
+    margin: 30px 200px;
+}
+
+// NEW, EDIT
+.new-todo, .edit-todo{
+    margin-top: 30px;
+    width: 75%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}

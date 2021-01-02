@@ -1,0 +1,10 @@
+<div>
+    <div class = "main-button">
+        <%= link_to "Add Todo", new_todo_path %>
+    </div>
+    <div class = "index__todos">
+        <% @todos.each do |todo|%>
+            <%= render partial: "todos/todo", locals: { todo: todo } %>
+        <% end %>
+    </div>
+</div>

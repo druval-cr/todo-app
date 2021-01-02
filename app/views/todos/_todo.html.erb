@@ -1,0 +1,13 @@
+<div class = "todo">
+    <h3><%= todo.content %></h3>
+    <div class = "todo-field">
+        Due Date: <%= todo.due_date %>
+    </div>
+    <div class = "todo-field">
+        Priority: <%= todo.priority %>
+    </div>
+    <div class = "todo-field">
+        <%= link_to "Edit", edit_todo_path(todo) %>
+        <%= link_to "Delete", todo_path(todo), method: :delete, data: { confirm: "Are you sure to delete?" } %>
+    </div>
+</div>

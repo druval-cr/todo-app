@@ -1,0 +1,6 @@
+<div class = "main-button">
+    <%= link_to "All Todos", todos_path %>
+</div>
+<div class = "new-todo">
+    <%= render partial: "todos/form", locals: { todo: @todo } %>
+</div>
